@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <dict>
+            <key>IPSec</key>
+            <dict>
+                <key>AuthenticationMethod</key>
+                <string>Certificate</string>
+                <key>OnDemandEnabled</key>
+                <integer>1</integer>
+                <key>OnDemandRules</key>
+                <array>
+                    <dict>
+                        <key>Action</key>
+                            <string>Disconnect</string>
+                        <key>SSIDMatch</key>
+                        <array>
+                        </array>
+                    </dict>
+
+                    <dict>
+                        <key>Action</key>
+                            <string>Disconnect</string>
+                        <key>DNSServerAddressMatch</key>
+                        <array>
+                        </array>
+                    </dict>
+
+                    <dict>
+                        <key>Action</key>
+                            <string>Disconnect</string>
+                        <key>DNSDomainMatch</key>
+                        <array>
+                        </array>
+                    </dict>
+
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                    </dict>
+                </array>
+   
+                <key>OnDemandMatchDomainsAlways</key>
+                <array>
+                    <string>a</string>
+                    <string>b</string>
+                    <string>c</string>
+                    <string>d</string>
+                    <string>e</string>
+                    <string>f</string>
+                    <string>g</string>
+                    <string>h</string>
+                    <string>i</string>
+                    <string>j</string>
+                    <string>k</string>
+                    <string>l</string>
+                    <string>m</string>
+                    <string>n</string>
+                    <string>o</string>
+                    <string>p</string>
+                    <string>q</string>
+                    <string>r</string>
+                    <string>s</string>
+                    <string>t</string>
+                    <string>u</string>
+                    <string>v</string>
+                    <string>w</string>
+                    <string>x</string>
+                    <string>y</string>
+                    <string>z</string>
+                </array>
+                <key>OnDemandMatchDomainsNever</key>
+                <array>
+                    <string>es-cn-mobile-dev1.odd.blackspider.com</string>
+                    <string>mcb-cn-mobile-dev1.odd.blackspider.com</string>
+                    <string>mvpn-cn-mobile-dev1.odd.blackspider.com</string>
+                    <string>mobile.websense.com</string>
+                    <string>mobsec.websense.com</string>
+                    <string>push.apple.com</string>
+                </array>
+                <key>PayloadCertificateUUID</key>
+                <string>D2301D47-13CA-48FD-87AC-B97D2AB880FA</string>
+                <key>PromptForVPNPIN</key>
+                <false/>
+                <key>RemoteAddress</key>
+                <string></string>
+                <key>XAuthEnabled</key>
+                <integer>0</integer>
+                <key>XAuthName</key>
+                <string>MobileUser</string>
+            </dict>
+            <key>IPv4</key>
+            <dict>
+                <key>OverridePrimary</key>
+                <integer>0</integer>
+            </dict>
+            <key>PayloadDescription</key>
+            <string>Configures VPN settings, including authentication.</string>
+            <key>PayloadDisplayName</key>
+            <string>Websense, Inc. VPN</string>
+            <key>PayloadIdentifier</key>
+            <string>com.websense.vpnprofile.vpn1</string>
+            <key>PayloadOrganization</key>
+            <string>Websense, Inc.</string>
+            <key>PayloadType</key>
+            <string>com.apple.vpn.managed</string>
+            <key>PayloadUUID</key>
+            <string>49306627-7342-460B-9CD8-6DD723F0A44D</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+            <key>Proxies</key>
+            <dict>
+                <key>HTTPEnable</key>
+                <integer>0</integer>
+                <key>HTTPSEnable</key>
+                <integer>0</integer>
+                <key>ProxyAutoConfigEnable</key>
+                <integer>1</integer>
+                    <key>ProxyAutoConfigURLString</key>
+                    <string></string>
+                <key>ProxyAutoDiscoveryEnable</key>
+                <integer>0</integer>
+            </dict>
+            <key>UserDefinedName</key>
+            <string>Websense VPN Server</string>
+            <key>VPNType</key>
+            <string>IPSec</string>
+        </dict>
+
+    </array>
+    <key>PayloadDescription</key>
+    <string>Websense VPN Profile</string>
+    <key>PayloadDisplayName</key>
+    <string>Websense VPN Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.websense.vpnprofile</string>
+    <key>PayloadOrganization</key>
+    <string>Websense</string>
+    <key>PayloadRemovalDisallowed</key>
+    <true/>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>7044A58D-11DA-44AD-9AD3-81D424C5DD32</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>

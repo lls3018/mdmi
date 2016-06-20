@@ -1,0 +1,19 @@
+Tools for daily device information sync:
+Sync device information with airwatch or mobileiron(not supported yet)
+1>Exec as crontab job;
+2>For testing:
+    2.1>Modify the account id in DEV_ACCOUNT_TAB locats in the tools_dev_daily_sync.py;
+    2.2>Execute the script "python tools_dev_daily_sync.py";
+3>For extensionablity:
+    3.1>Add the account id for the new vendor; (DEV_ACCOUNT_TAB in tools_dev_daily_sync.py)
+    3.2>Add a new handler for the new vendor; (_get_handler in tools_dev_daily_sync.py)
+    3.3>The 2 local queues in order to cache the device information for multi-threading extension in the future;
+
+
+Tools for account attribute insert:
+Insert account attribute to RS as the new schema. This tool is designed for old device information upgrade.
+1>Exec "python aw_dev_account_ins.py";
+    1.1>It's unnecessary to execute the script for a new built cluster.
+
+Tools for ...
+

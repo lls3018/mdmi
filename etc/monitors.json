@@ -1,0 +1,22 @@
+{
+	"thresholds": {
+		"NotificationService": {
+			"yellow_conn_num": 10	
+		},
+		"EnrollmentDecisonTQP": {
+			"yellow_failed_task_num": 10
+		},
+		"iOSDeploymentTQP": {
+			"yellow_failed_task_num": 10
+		},
+		"AndroidDeploymentTQP": {
+			"yellow_failed_task_num": 10
+		},
+		"UserGroupTQP": {
+			"yellow_failed_task_num": 10
+		},
+		"PeriodicSyncTQP": {
+			"yellow_failed_task_num": 10
+		}
+	}
+}

@@ -1,0 +1,10 @@
+Package:
+    ods-mdmi-pkeypool*.rpm
+
+Service control:
+    1> Set the value of 'pkeypool_service_enabled' to be 1 in the file'/opt/mdmi/etc/mdmi.conf' '[vpn]' section;
+    2> Modify the value in the defs.py to improve the efficiency;(Default value is fine)
+    3> /etc/init.d/pkeypoolservice start/stop/restart to control the service;
+
+Setting the values defined in defs.py would be easy to configure the service;
+
